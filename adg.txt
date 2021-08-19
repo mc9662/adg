@@ -2,6 +2,6 @@ confiant-integrations.global.ssl.fastly.net
 theguardian.com
 guardianapps.co.uk
 bbci.co.uk
-liveperson.net^$important
+liveperson.net
 natwest.com
 nationwide.co.uk
