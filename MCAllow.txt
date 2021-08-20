@@ -6,3 +6,6 @@ liveperson.net
 natwest.com
 tt.natwest.com
 nationwide.co.uk
+cdn.livefyre.com
+data.livefyre.com
+ophan.co.uk
