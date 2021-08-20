@@ -5,6 +5,9 @@
 ||liveperson.net
 ||natwest.com
 ||nationwide.co.uk
+||santander.co.uk
 ||cdn.livefyre.com
 ||data.livefyre.com
 ||ophan.co.uk
+||plus.net
+||plus.com
