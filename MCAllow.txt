@@ -12,3 +12,4 @@
 ||plus.net
 ||plus.com
 ||analytics-api.home-assistant.io
+||dc.services.visualstudio.com
