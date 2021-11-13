@@ -11,3 +11,4 @@
 ||ophan.co.uk
 ||plus.net
 ||plus.com
+||analytics-api.home-assistant.io
