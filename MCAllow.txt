@@ -14,3 +14,4 @@
 ||analytics-api.home-assistant.io
 ||dc.services.visualstudio.com
 ||time.windows.com
+||www.dublinairport.com
