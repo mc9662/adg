@@ -15,4 +15,6 @@
 ||dc.services.visualstudio.com
 ||time.windows.com
 ||www.dublinairport.com
-||data1.solarmanpv.com
+||solarmanpv.com
+||soliscloud.com
+||ginlong-it-test.oss-eu-central-1.aliyuncs.com
