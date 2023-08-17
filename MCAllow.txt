@@ -15,3 +15,4 @@
 ||dc.services.visualstudio.com
 ||time.windows.com
 ||www.dublinairport.com
+||data1.solarmanpv.com
