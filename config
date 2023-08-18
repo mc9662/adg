@@ -6,9 +6,7 @@ General Settings
   use adg browsing service
   use safesearch
 
-  enable logs
-  90 days
-
+  enable logs 90 days
   enable stats 90 days
 
 DNS Settings
@@ -32,8 +30,9 @@ Filters
       OSID        https://abp.oisd.nl/basic/
       ADGAnnoyances        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
       ADGTrackingProtection      https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
-      ADGBaseList        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt
-      ADGUnblocking        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
+      ADGBaseList        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+      ADGURLTrackParams      https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+      ADGDNSFilter        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_15_DnsFilter/filter.txt
       FanBoyCustomAnnoyances        https://secure.fanboy.co.nz/fanboy-annoyance.txt
       1Hosts        https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Lite_adblock.txt
 
@@ -41,9 +40,4 @@ Filters
       AnudeepAllow        https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
       MCAllow        https://raw.githubusercontent.com/mc9662/adg/main/MCAllow.txt
       ADGBaseAllow        https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/BaseFilter/sections/allowlist.txt
-
-    Custom Allow
-      ||ctldl.windowsupdate.com^$important
-      @@||lpsnmedia.net^$important
-      ccccccteceduduchhebdbhehcfidhfbjhhbitgtivhel
-  @@||home-assistant.io^$important
+      ADGAllowSelfSearch        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt        
