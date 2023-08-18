@@ -1,6 +1,11 @@
 sudo apt update && sudo apt full-upgrade && sudo apt autoremove && sudo apt clean
 wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+sudo apt install unattended-upgrades
+  sudo nano /etc/apt/apt.conf.d/50unattended-upgrades    <-- check ett
+  sudo nano /etc/apt/apt.conf.d/20auto-upgrades
+  sudo unattended-upgrade -d
 
+ADGUARD
 General Settings
   block domiains - update interval 12h
   use adg browsing service
