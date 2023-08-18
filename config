@@ -1,0 +1,49 @@
+sudo apt update && sudo apt full-upgrade && sudo apt autoremove && sudo apt clean
+wget --no-verbose -O - https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
+
+General Settings
+  block domiains - update interval 12h
+  use adg browsing service
+  use safesearch
+
+  enable logs
+  90 days
+
+  enable stats 90 days
+
+DNS Settings
+  https://family.cloudflare-dns.com/dns-query
+  https://dns-family.adguard.com/dns-query
+  https://doh.opendns.com/dns-query
+
+  bootstrap DNS 1.1.1.1:53
+
+DNS Server Config
+  Enable EDNS
+  Enable DNSSec
+  Disable ip6
+
+Filters
+    block lists
+      The Big List of Hacked Malware Web Sites        https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hosts
+      MMotti REGEX        https://raw.githubusercontent.com/mmotti/adguard-home-filters/master/regex.txt
+      AnudeepBlock        https://hosts.anudeep.me/mirror/adservers.txt
+      MCBlock        https://raw.githubusercontent.com/mc9662/adg/main/MCBlock.txt
+      OSID        https://abp.oisd.nl/basic/
+      ADGAnnoyances        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+      ADGTrackingProtection      https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+      ADGBaseList        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_English/filter.txt
+      ADGUnblocking        https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_10_Useful/filter.txt
+      FanBoyCustomAnnoyances        https://secure.fanboy.co.nz/fanboy-annoyance.txt
+      1Hosts        https://github.com/badmojr/1Hosts/releases/download/latest/1hosts-Lite_adblock.txt
+
+    Allow Lists
+      AnudeepAllow        https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt
+      MCAllow        https://raw.githubusercontent.com/mc9662/adg/main/MCAllow.txt
+
+
+    Custom Allow
+      ||ctldl.windowsupdate.com^$important
+      @@||lpsnmedia.net^$important
+      ccccccteceduduchhebdbhehcfidhfbjhhbitgtivhel
+  @@||home-assistant.io^$important
