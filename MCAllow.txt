@@ -20,3 +20,4 @@
 ||ginlong-it-test.oss-eu-central-1.aliyuncs.com
 ||home-assistant.io
 ||lpsnmedia.net
+||upsellit.com
