@@ -21,3 +21,4 @@
 ||home-assistant.io
 ||lpsnmedia.net
 ||upsellit.com
+||dpdlocal-online.co.uk
