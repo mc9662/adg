@@ -24,3 +24,5 @@
 ||dpdlocal-online.co.uk
 ||api.forecast.solar
 ||returns.international
+||longtallsally.returns.international
+||www.wildlifetrusts.org
